@@ -1,0 +1,19 @@
+{
+  "name": "watch-willhaben",
+  "version": "0.1",
+  "slug": "watch-willhaben",
+  "description": "App um eine willhaben Url zu monitoren",
+  "startup": "before",
+  "boot": "auto",
+  "url": "https://github.com/0gordonfreeman/hassio-addons/tree/master/watch-willhaben",
+  "map": ["config:rw", "ssl"],
+  "host_network": "True",
+  "options": {},
+  "schema": {},
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armv7",
+    "i386"
+]
+}
