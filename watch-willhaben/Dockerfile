@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 ENV LANG C.UTF-8
 
 # Install requirements for add-on
-RUN apk add --no-cache libpcap-dev jq git nodejs nodejs-npm python make g++
+RUN apk add --no-cache libpcap-dev jq git nodejs nodejs-npm
 
 #install watch-willhaben
 RUN cd /root && export GIT_SSL_NO_VERIFY=1 && \
