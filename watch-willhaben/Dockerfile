@@ -19,4 +19,4 @@ RUN cd /root/watch-willhaben && npm ci
 #RUN chmod a+x /run.sh
 
 #CMD [ "/run.sh" ]
-CMD cd /root/watch-willhaben && cp /config/watch-willhaben/env /root/watch-willhaben/.env && npm run start
+CMD cd /root/watch-willhaben && npm run start

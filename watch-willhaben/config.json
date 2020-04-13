@@ -8,8 +8,18 @@
   "url": "https://github.com/0gordonfreeman/hassio-addons/tree/master/watch-willhaben",
   "map": ["config:rw", "ssl"],
   "host_network": "True",
-  "options": {},
-  "schema": {},
+  "options": {"willhaben_url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz?areaId=601",
+              "interval": 60,
+              "xpath_query": "//x:article/x:section[3]/x:div[1]/x:a/@href",
+              "telegram_token": null,
+              "telegram_chat_id": null
+            },
+  "schema": { "willhaben_url": "str",
+              "interval": "int",
+              "xpath_query": "str",
+              "telegram_token": "str",
+              "telegram_chat_id": "str"
+            },
   "arch": [
     "aarch64",
     "amd64",
