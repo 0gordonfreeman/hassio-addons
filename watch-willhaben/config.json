@@ -11,8 +11,8 @@
   "options": {"willhaben_url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/marktplatz?areaId=601",
               "interval": 60,
               "xpath_query": "//x:article/x:section[3]/x:div[1]/x:a/@href",
-              "telegram_token": null,
-              "telegram_chat_id": null
+              "telegram_token": "",
+              "telegram_chat_id": ""
             },
   "schema": { "willhaben_url": "str",
               "interval": "int",

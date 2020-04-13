@@ -19,4 +19,4 @@ RUN cd /root/watch-willhaben && npm ci
 #RUN chmod a+x /run.sh
 
 #CMD [ "/run.sh" ]
-CMD cd /root/watch-willhaben && npm run start
+CMD cd /root/watch-willhaben && cp /data/options.json /root/watch-willhaben/options.json  && npm run start
