@@ -1,6 +1,6 @@
 {
   "name": "watch-willhaben",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "watch-willhaben",
   "description": "App um für eine Willhaben-Url die neuesten Anzeigen via Telegram zu bekommen",
   "startup": "before",
